@@ -1,13 +1,13 @@
 # Análise Financeira com Apresentação Executiva (Sam's Club - Walmart)
 
-[![Abrir Dashboard](https://img.shields.io/badge/Abrir%20Dashboard-Interativo-1d4ed8?style=for-the-badge)](https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/dashboard_vendas.html)
-[![Abrir Site](https://img.shields.io/badge/Abrir%20Site-Landing%20Page-0ea5e9?style=for-the-badge)](https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/)
+[![Abrir Dashboard](https://img.shields.io/badge/Abrir%20Dashboard-Interativo-1d4ed8?style=for-the-badge)](https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/dashboard_vendas.html)
+[![Abrir Site](https://img.shields.io/badge/Abrir%20Site-Landing%20Page-0ea5e9?style=for-the-badge)](https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/)
 
 <p align="center">
-  <a href="https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/dashboard_vendas.html?v=2025-11-26" title="Dashboard de Vendas">
+  <a href="https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/dashboard_vendas.html?v=2025-11-26" title="Dashboard de Vendas">
     <img src="dashboard/preview.png" alt="Abrir Dashboard de Vendas" width="49%" style="border-radius: 12px;" />
   </a>
-  <a href="https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/dashboard_analise_ad_hoc.html" title="Dashboard Análise ad hoc">
+  <a href="https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/dashboard_analise_ad_hoc.html" title="Dashboard Análise ad hoc">
     <img src="dashboard/preview_ad_hoc.png" alt="Abrir Dashboard Análise ad hoc" width="49%" style="border-radius: 12px;" />
   </a>
   
@@ -17,12 +17,12 @@ Clique em qualquer miniatura acima para abrir o dashboard diretamente no navegad
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 
-**Projeto de consultoria financeira para o Sam's Club - Walmart, com o objetivo de gerar insights a partir de dados de vendas e apresentá-los de forma executiva.**
+**Modelo de consultoria financeira para o Sam's Club - Walmart, com o objetivo de gerar insights a partir de dados de vendas e apresentá-los de forma executiva.**
 
 ## Sumário
-- [Visão Geral do Projeto](#visão-geral-do-projeto)
+- [Visão Geral do Modelo](#visão-geral-do-modelo)
 - [Objetivos da Análise](#objetivos-da-análise)
-- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Estrutura do Modelo](#estrutura-do-modelo)
 - [Base de Dados](#base-de-dados)
 - [Metodologia de Análise](#metodologia-de-análise)
 - [Dashboard Interativo](#dashboard-interativo)
@@ -32,9 +32,9 @@ Clique em qualquer miniatura acima para abrir o dashboard diretamente no navegad
 - [Licença](#licença)
 - [Contato](#contato)
 
-## Visão Geral do Projeto:
+## Visão Geral do Modelo:
 
-Este projeto consiste em uma consultoria financeira abrangente para o Sam's Club - Walmart, com foco na análise de dados de vendas para responder a questões de negócio cruciais. A análise detalhada é realizada em um notebook Jupyter, os principais insights são consolidados em uma apresentação executiva formatada para decisão, e agora inclui um **dashboard interativo** para exploração dinâmica dos dados.
+Este modelo consiste em uma consultoria financeira abrangente para o Sam's Club - Walmart, com foco na análise de dados de vendas para responder a questões de negócio cruciais. A análise detalhada é realizada em um notebook Jupyter, os principais insights são consolidados em uma apresentação executiva formatada para decisão, e agora inclui um **dashboard interativo** para exploração dinâmica dos dados.
 
 ## Objetivos da Análise:
 
@@ -44,9 +44,9 @@ A análise financeira foi guiada pelas seguintes perguntas chave, visando fornec
 2.  **Qual foi a categoria de produtos mais vendida?**
 3.  **Qual foi o item (produto específico) mais vendido?**
 
-## Estrutura do Projeto:
+## Estrutura do Modelo:
 
-Este repositório está organizado para facilitar a compreensão e replicação do projeto:
+Este repositório está organizado para facilitar a compreensão e replicação do modelo:
 
 -   dados/:
     -   criando_uma_apresentacao_executiva.csv: A base de dados bruta utilizada para a análise.
@@ -55,13 +55,13 @@ Este repositório está organizado para facilitar a compreensão e replicação 
 -   ppt/:
     -   Apresentacao_Executiva.pptx: A apresentação em PowerPoint com os resultados e insights consolidados para uma audiência executiva.
 -   dashboard_vendas.html: **NOVO** - Dashboard interativo para análise exploratória de dados.
--   README.md: Este arquivo, fornecendo uma visão geral do projeto.
--   LICENSE.md: Arquivo contendo os termos da licença do projeto (MIT).
+-   README.md: Este arquivo, fornecendo uma visão geral do modelo.
+-   LICENSE.md: Arquivo contendo os termos da licença do modelo (MIT).
 -   requirements.txt: Lista das bibliotecas Python e suas versões necessárias para executar o notebook.
 
 ## Base de Dados:
 
-O projeto utiliza o arquivo criando_uma_apresentacao_executiva.csv, localizado na pasta dados/. Este dataset contém informações detalhadas sobre as vendas, incluindo datas, valores, categorias e nomes de produtos, permitindo uma análise aprofundada do desempenho financeiro.
+O modelo utiliza o arquivo criando_uma_apresentacao_executiva.csv, localizado na pasta dados/. Este dataset contém informações detalhadas sobre as vendas, incluindo datas, valores, categorias e nomes de produtos, permitindo uma análise aprofundada do desempenho financeiro.
 
 ## Metodologia de Análise:
 
@@ -75,13 +75,13 @@ A análise foi conduzida de forma meticulosa, seguindo os seguintes passos no no
     * Transformação de tipos de dados para garantir a consistência e permitir operações analíticas.
 4.  **Cálculos e Transformações:** Realização de cálculos financeiros para derivar métricas de desempenho.
 5.  **Visualização de Dados:** Geração de gráficos (com bibliotecas como Matplotlib e Seaborn) para ilustrar tendências de vendas, desempenho de categorias e identificar os produtos mais vendidos.
-6.  **Extração de Insights:** Identificação das respostas para as perguntas chave do projeto, baseadas nas análises e visualizações.
+6.  **Extração de Insights:** Identificação das respostas para as perguntas chave do modelo, baseadas nas análises e visualizações.
 
 ## Dashboards Interativos:
 
 ###  **Dashboard de Vendas**
 
-O projeto agora inclui um **dashboard web interativo** (dashboard_vendas.html) que permite uma exploração dinâmica e em tempo real dos dados de vendas.
+O modelo agora inclui um **dashboard web interativo** (dashboard_vendas.html) que permite uma exploração dinâmica e em tempo real dos dados de vendas.
 
 #### Características Principais:
 
@@ -124,7 +124,7 @@ O projeto agora inclui um **dashboard web interativo** (dashboard_vendas.html) q
 
 ### Dashboard Análise ad hoc
 
-O projeto também inclui um **dashboard de Análise ad hoc** (`dashboard/dashboard_analise_ad_hoc.html`) com foco em exploração direta e seleção dinâmica entre gráficos.
+O modelo também inclui um **dashboard de Análise ad hoc** (`dashboard/dashboard_analise_ad_hoc.html`) com foco em exploração direta e seleção dinâmica entre gráficos.
 
 #### Destaques:
 - **Correlação visual entre gráficos**: seleção em um gráfico destaca dados relacionados nos demais.
@@ -132,7 +132,7 @@ O projeto também inclui um **dashboard de Análise ad hoc** (`dashboard/dashboa
 - **Design consistente**: segue o mesmo tema visual e responsivo do dashboard de vendas.
 
 #### Como Usar:
-1. Abra `dashboard_analise_ad_hoc.html` em um navegador moderno.
+1. Abra `dashboard/dashboard_analise_ad_hoc.html` em um navegador moderno.
 2. Interaja com os gráficos (clique/hover) para destacar dados relacionados.
 3. Use os controles de limpar seleção para retornar ao estado inicial.
 
@@ -140,9 +140,9 @@ O projeto também inclui um **dashboard de Análise ad hoc** (`dashboard/dashboa
 
 Como visualizar de forma interativa (sem clonar o repositório):
 
-- Página inicial (landing page): `https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/`
-- Dashboard direto: `https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/dashboard_vendas.html`
-- Dashboard ad hoc: `https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/dashboard_analise_ad_hoc.html`
+- Página inicial (landing page): `https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/`
+- Dashboard direto: `https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/dashboard_vendas.html`
+- Dashboard ad hoc: `https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/dashboard_analise_ad_hoc.html`
 
 Observações:
 - A landing page (`dashboard/index.html`, publicada na raiz) tem um botão “Acessar Dashboard”.
@@ -158,13 +158,13 @@ Este site publica o conteúdo da pasta `dashboard` diretamente no branch `gh-pag
 - Após cada push em `main`, o conteúdo de `dashboard/` é enviado para `gh-pages`
 
 URLs de acesso:
-- Site (index do dashboard): `https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/`
-- Dashboard direto: `https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/dashboard_vendas.html`
-- Dashboard ad hoc: `https://flaviohenriquehb777.github.io/Projeto_3_Financas_com_Apresentacao_Final_em_PPT/dashboard_analise_ad_hoc.html`
+- Site (index do dashboard): `https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/`
+- Dashboard direto: `https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/dashboard_vendas.html`
+- Dashboard ad hoc: `https://flaviohenriquehb777.github.io/Analise_Financeira_Dashboard_Executivo-Varejo/dashboard_analise_ad_hoc.html`
 
 Se o deploy ficar “pendente” ou “rejected”, aprove o ambiente `github-pages` em “Pages → Deployments” e confirme que o Pages está apontando para `gh-pages/(root)`.
 
-### Miniatura do Projeto (Preview 1200×630)
+### Miniatura do Modelo (Preview 1200×630)
 
 A miniatura apresentada no topo do README usa `dashboard/preview.png` (proporção **1200×630**), gerada automaticamente com a logo integrada, para melhor compatibilidade visual com OpenGraph/Twitter.
 
@@ -218,8 +218,8 @@ Para replicar a análise e visualizar a apresentação, siga os passos abaixo:
 
 - **Clone o repositório**
   ```bash
-  git clone https://github.com/flaviohenriquehb777/Projeto_3_Financas_com_Apresentacao_Final_em_PPT.git
-  cd Projeto_3_Financas_com_Apresentacao_Final_em_PPT
+  git clone https://github.com/flaviohenriquehb777/Analise_Financeira_Dashboard_Executivo-Varejo.git
+  cd Analise_Financeira_Dashboard_Executivo-Varejo
   ```
 
 - **Instale as dependências**
@@ -247,7 +247,7 @@ Para replicar a análise e visualizar a apresentação, siga os passos abaixo:
 
 - **Preview local rápido (opcional)**
   ```bash
-  # Servir a raiz do projeto
+  # Servir a raiz do modelo
   python -m http.server 8000
   # ou apenas a pasta dashboard
   cd dashboard
@@ -257,13 +257,13 @@ Para replicar a análise e visualizar a apresentação, siga os passos abaixo:
 - **Apresentação Executiva**
   Abra `ppt/Apresentacao_Executiva.pptx` para revisar a apresentação executiva.
 
-## Histórico do projeto (março/2023)
+## Histórico do modelo (março/2023)
 
-Este projeto foi concluído em março de 2023 e permanece arquivado para fins de portfólio e demonstração. Recomenda-se manter o histórico de commits consistente com esse período, evitando scripts de reescrita de datas no repositório público.
+Este modelo foi concluído em março de 2023 e permanece arquivado para fins de portfólio e demonstração. Recomenda-se manter o histórico de commits consistente com esse período, evitando scripts de reescrita de datas no repositório público.
 
 ## Licença:
 
-Este projeto está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo [LICENSE.md](LICENSE.md) na raiz do repositório.
+Este modelo está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo [LICENSE.md](LICENSE.md) na raiz do repositório.
 
 ## Contato:
 
